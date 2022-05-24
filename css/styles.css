@@ -1,12 +1,12 @@
 /* Fonts */
 @font-face {
-    font-family: 'Rubik';
-    font-style: italic;
+    font-family: 'Mulish';
     font-display: swap;
+    font-style: italic;
     font-weight: 900;
     src: local(''),
-         url('../fonts/rubik.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/rubik.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/mulish.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/mulish.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* Reset */
@@ -32,7 +32,7 @@ body {
     width: 100%;
     color: #ffffff;
     font-size: 15px;
-    font-family: 'Rubik';
+    font-family: 'Mulish';
     font-weight: 900;
     background-color: #124098;
 }
@@ -85,7 +85,6 @@ body {
     text-align: right;
     text-transform: uppercase;
     margin-bottom: 58px;
-    letter-spacing: 4px;
 }
 .main__button {
     display: block;
@@ -96,7 +95,7 @@ body {
     color: #ffffff;
     letter-spacing: 2px;
     line-height: 50px;
-    font-family: 'Rubik';
+    font-family: 'Mulish';
     font-weight: 900;
     margin-left: auto;
     text-transform: uppercase;
@@ -150,7 +149,7 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'Rubik';
+    font-family: 'Mulish';
     font-weight: 900;
     font-size: 12px;
     outline: none;

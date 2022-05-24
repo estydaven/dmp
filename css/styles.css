@@ -1,13 +1,13 @@
 /* Fonts */
-/* montserrat-900italic - latin_cyrillic */
 @font-face {
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 900;
     font-display: swap;
     src: local(''),
-         url('../fonts/montserrat-v24-latin_cyrillic-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v24-latin_cyrillic-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/montserrat.woff2') format('woff2'), 
+         url('../fonts/montserrat.ttf') format('ttf'),
+         url('../fonts/montserrat.woff') format('woff'); 
   }
 
 /* Reset */
